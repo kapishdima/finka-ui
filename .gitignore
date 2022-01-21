@@ -1,5 +1,18 @@
 *.log
+
+# Remove DS_Store from anywhere
 .DS_Store
+**/.DS_Store
+
+# Remove node_modules from anywhere
 node_modules
+**/node_modules
+
 .cache
+
+# Remove parcel-cache from anywhere
+**/.parcel-cache
+
+# Remove node_modules from anywhere
 dist
+**/dist
