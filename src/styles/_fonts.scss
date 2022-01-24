@@ -1,0 +1,56 @@
+// ---------------------------------
+// PT Root UI Regular
+// ---------------------------------
+
+@font-face {
+    font-family: 'PT-Root-UI_Regular';
+    src: url('/src/fonts/PT/web/PT-Root-UI_Regular.woff') format('woff'),
+        url('/src/fonts/PT/web/PT-Root-UI_Regular.woff2') format('woff2'),
+        url('/src/fonts/PT/ttf/PT-Root-UI_Regular.ttf') format('truetype'),
+        url('/src/fonts/PT/otf/PT-Root-UI_Regular.otf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+// ---------------------------------
+// PT Root UI Bold
+// ---------------------------------
+
+@font-face {
+    font-family: 'PT-Root-UI_Bold';
+    src: url('/src/fonts/PT/web/PT-Root-UI_Bold.woff') format('woff'),
+        url('/src/fonts/PT/web/PT-Root-UI_Bold.woff2') format('woff2'),
+        url('/src/fonts/PT/ttf/PT-Root-UI_Bold.ttf') format('truetype'),
+        url('/src/fonts/PT/otf/PT-Root-UI_Bold.otf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+// ---------------------------------
+// PT Root UI Medium
+// ---------------------------------
+
+@font-face {
+    font-family: 'PT-Root-UI_Medium';
+    src: url('/src/fonts/PT/web/PT-Root-UI_Medium.woff') format('woff'),
+        url('/src/fonts/PT/web/PT-Root-UI_Medium.woff2') format('woff2'),
+        url('/src/fonts/PT/ttf/PT-Root-UI_Medium.ttf') format('truetype'),
+        url('/src/fonts/PT/otf/PT-Root-UI_Medium.otf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// ---------------------------------
+// PT Root UI Light
+// ---------------------------------
+
+@font-face {
+    font-family: 'PT-Root-UI_Light';
+    src: url('/src/fonts/PT/web/PT-Root-UI_Light.woff') format('woff'),
+        url('/src/fonts/PT/web/PT-Root-UI_Light.woff2') format('woff2'),
+        url('/src/fonts/PT/ttf/PT-Root-UI_Light.ttf') format('truetype'),
+        url('/src/fonts/PT/otf/PT-Root-UI_Light.otf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
