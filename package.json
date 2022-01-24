@@ -36,7 +36,7 @@
     "trailingComma": "es5"
   },
   "name": "finka-ui",
-  "author": "DimaDevelopment",
+  "author": "<kapishdima@gmail.com>",
   "module": "dist/finka-ui.esm.js",
   "size-limit": [
     {
