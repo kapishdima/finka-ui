@@ -1,7 +1,25 @@
 module.exports = {
-  stories: ['../src/**/*.stories.@(ts|tsx|js|jsx)'],
+  stories: ['../stories/**/*.stories.@(ts|tsx|js|jsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   typescript: {
-    check: true, // type-check stories during Storybook build
+    check: true,
+  },
+  webpackFinal: (config) => {
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: [
+        'style-loader',
+        {
+          loader: require.resolve('css-loader'),
+          options: {
+            modules: {
+              localIdentName: '[local]___[hash:base64:5]',
+            },
+          },
+        },
+      ],
+    });
+
+    return config;
   },
 };
